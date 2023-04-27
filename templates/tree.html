@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="/static/Tree.js"></script>
+</head>
+<body>
+  <span id="data-data" class="d-none" aria-hidden="true" data-data="{{ data }}"></span>
+  <script>
+    window.data = JSON.parse(document.getElementById("data-data").dataset.data);
+  </script>
+  <div id="d3" class="d-flex flex-column"></div>
+  <script src="/static/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.d-none {
+  display: none;
+}
+
+#d3:empty::after {
+  content: "No data yet.";
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
