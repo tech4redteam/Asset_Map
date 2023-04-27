@@ -11,10 +11,14 @@ source venv/bin/activate
 python3 app.py
 
 # How to Use in AnScan
-Find the UID of the scan in AnScan
+Find the UID of the scan in AnScan:
+
+
 <img src="AnScan_ID.png" alt="Alt text" title="AnScan UID">
 
-Paste into the URL of the Asset Map
+Paste into the URL of the Asset Map:
+
+
 <img src="Asset_Tree.png" alt="Alt text" title="Asset Tree">
 
 
