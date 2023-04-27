@@ -10,4 +10,7 @@ source venv/bin/activate
 
 python3 app.py
 
+# How to Use
+<img src="AnScan_ID.png" alt="Alt text" title="AnScan UID">
+
 
